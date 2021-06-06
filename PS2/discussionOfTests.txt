@@ -1,0 +1,19 @@
+We made a test named test2(). This test first created a point quadtree (point A) at x=200, y=200.
+It then inserted our points B, C, D, E, and F at various coordinates, assigning four at level 2 (orange)
+  and one at level 3 (yellow).
+The next step of the test was to check to see if our query was functioning properly. We ran the testFind
+  function five times with varying x, y, and r values to check if the query was delivering the correct
+  circleRectangle, inCircle, and hits values. We found these expected values by using Desmos.com and
+  making circles with the specified values on the website.
+When we ran test2(), we were met with a resounding "test 2 passed!"
+
+In order to test out the functionality of our collision GUI, we created two bouncers with set velocities to determine if their color change matched our expectations of whether or not they should collide. These tests passed, as the blobs would only change color and indicate a collision when there was in fact a collision (two blobs within 2*radius of one another)
+
+Extra Credit!
+1. (? Points) Press '1' in CollisionGUI to change collision color to RED.
+2. (? Points) Press '2' in CollisionGUI to change collision color to ORANGE.
+3. (? Points) Press '3' in CollisionGUI to change collision color to YELLOW.
+4. (? Points) Press '4' in CollisionGUI to change collision color to GREEN.
+5. (? Points) Press '5' in CollisionGUI to change collision color to BLUE.
+6. (? Points) Press '6' in CollisionGUI to change collision color to indigo (custom color!).
+7. (? Points) Press '7' in CollisionGUI to change collision color to violet (custom color!).
