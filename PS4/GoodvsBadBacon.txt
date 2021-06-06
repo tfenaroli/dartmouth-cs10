@@ -1,0 +1,3 @@
+Good Bacon: I would recommend Robert Downey Jr. as a good Bacon. This is because he is early on in the list (has a relatively low average separation of 3.38), but is also in the large network of 7494 actors. Because of this, many actors are able to reach him, and he has a relatively low average separation.
+
+Bad Bacon: I would recommend Fidel Castro as a bad bacon. This is because he is connected to one actor, and thus only one actor would be able to reach him. Despite having an average separation of 0.0, which may sound good, it's once you realize that he is such a solitary actor (very few connections) that it is obvious he is a horrible choice for a Bacon. Only one person (out of over 9,000) would even be able to reach him.
