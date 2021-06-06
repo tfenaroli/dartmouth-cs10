@@ -1,0 +1,25 @@
+RegionFinder.java:
+
+In our recolored image method, we only displayed the largest region which is why there is only one region colored in
+the Baker photo in RegionsTest. Our max color difference variable had a value of 800. Had this value been larger, we would be left
+with a larger region and the opposite is true if we were to lower the value. However, we decided on 800 as a value that
+most effectively set a region in the webcam.
+
+In our region finder method, the only parameter passed was the target color which was selected by the user in CamPaint.
+
+Our region finder scanned through every pixel in a given image using nested loops. Upon finding a pixel that was "close
+enough" to our target color, a new region would be created. The region would expand as neighboring pixels possessed
+close enough colors as well. Upon repeating this process for every unvisited pixel in the image (creating a multitude
+of regions--which we stored in an array list), we found the largest region, and highlighted it in a random color.
+
+CamPaint.java:
+
+Our paintbrush feature caused a few limitations in that the camera would not always detect our intended region. Because
+of this, it took a few tries to draw pictures using the paintbrush. The lighting was more at fault for this issue than
+the code itself.
+
+The use of CamPaint was to highlight regions in real-time video as well as use the largest region as a functioning
+paintbrush.
+
+Additionally, we included an extra credit feature: toggle brush. By pressing the 'b' key, you can toggle whether the
+paintbrush is active.
